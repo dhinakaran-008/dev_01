@@ -1,11 +1,11 @@
 git --version
 git config --global user.email"karthi-work"
- git config --global-unset user.name"user name"
+git config --global-unset user.name"user name"
 git config --global-unset user.email"user.com"
 git config --global list
- git commit -m "First Commit"
- git status  
- git log  
- git push -u origin master    
- git commit -m "second Commit" 
+git commit -m "First Commit"
+git status  
+git log  
+git push -u origin master    
+git commit -m "second Commit" 
 git switch -c "Master Mind"  
