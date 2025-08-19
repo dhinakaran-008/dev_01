@@ -9,3 +9,4 @@ git log
 git push -u origin master    
 git commit -m "second Commit" 
 git switch -c "Master Mind"  
+
