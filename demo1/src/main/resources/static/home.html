@@ -1,11 +1,144 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Login page</title>
-    </head>
-    <body>
-        <h1> Hello all</h1>
-        <p>This is the home page</p>
-        <a href="login.html">Login</a>
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedCare — Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9fbfd;
+      color: #333;
+    }
+    header {
+      background: #1177ff;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .hero {
+      background: #eef6ff;
+      padding: 60px 30px;
+      text-align: center;
+    }
+    .hero h2 {
+      margin: 0 0 15px;
+      font-size: 28px;
+      color: #1177ff;
+    }
+    .hero p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .btn-primary {
+      padding: 12px 24px;
+      background: #1177ff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px 30px;
+      text-align: center;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1177ff;
+    }
+    footer {
+      background: #1177ff;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MedCare</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#doctors">Doctors</a>
+      <a href="#contact">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your Health, Our Priority</h2>
+    <p>Book appointments with top doctors, explore services, and manage your health easily with MedCare.</p>
+    <a href="login.html" class="btn-primary">Book an Appointment</a>
+  </section>
+
+  <section class="section" id="highlights">
+    <h2>Why Choose MedCare?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Trusted Doctors</h3>
+        <p>Board-certified doctors with years of experience and patient trust.</p>
+      </div>
+      <div class="card">
+        <h3>Easy Booking</h3>
+        <p>Quick appointment scheduling with just a few clicks.</p>
+      </div>
+      <div class="card">
+        <h3>24/7 Support</h3>
+        <p>Round-the-clock assistance for emergencies and healthcare queries.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>General Consultation</h3>
+        <p>Get expert advice for all your health concerns.</p>
+      </div>
+      <div class="card">
+        <h3>Specialist Care</h3>
+        <p>Consult with specialists in cardiology, neurology, pediatrics, and more.</p>
+      </div>
+      <div class="card">
+        <h3>Diagnostics</h3>
+        <p>Access lab tests and diagnostics with fast results.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MedCare. All Rights Reserved.</p>
+  </footer>
+</body>
 </html>

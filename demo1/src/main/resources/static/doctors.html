@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Profile - MediCare</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f9fc; color: #333; }
+    header { background: #1a73e8; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { margin: 0; }
+    nav a { color: white; margin-left: 1rem; text-decoration: none; }
+    .container { max-width: 1000px; margin: 2rem auto; padding: 2rem; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .profile-header { display: flex; align-items: flex-start; gap: 2rem; }
+    .profile-header img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid #1a73e8; }
+    .profile-info h2 { margin-top: 0; color: #1a73e8; }
+    .profile-info p { margin: 0.3rem 0; }
+    .section { margin-top: 2rem; }
+    .section h3 { color: #1a73e8; margin-bottom: 0.5rem; }
+    .availability { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .slot { background: #e8f0fe; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+    .slot:hover { background: #d2e3fc; }
+    .btn { display: inline-block; margin-top: 1rem; background: #1a73e8; color: white; padding: 0.7rem 1.2rem; border-radius: 5px; text-decoration: none; }
+    .btn:hover { background: #1557b0; }
+    footer { background: #1a73e8; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MediCare</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="profile-header">
+      <img src="doctor.jpg" alt="Doctor Photo">
+      <div class="profile-info">
+        <h2>Dr. Sarah Johnson</h2>
+        <p><strong>Specialization:</strong> Cardiologist</p>
+        <p><strong>Qualifications:</strong> MBBS, MD (Cardiology)</p>
+        <p><strong>Experience:</strong> 15+ years</p>
+        <p><strong>Location:</strong> MediCare Hospital, Chennai</p>
+        <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (120 reviews)</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Biography</h3>
+      <p>Dr. Sarah Johnson is a highly experienced cardiologist with over 15 years of practice in treating heart-related conditions. She is dedicated to providing the best care with a patient-centric approach.</p>
+    </div>
+
+    <div class="section">
+      <h3>Availability</h3>
+      <div class="availability">
+        <div class="slot">Mon, 10:00 AM - 1:00 PM</div>
+        <div class="slot">Wed, 2:00 PM - 5:00 PM</div>
+        <div class="slot">Fri, 11:00 AM - 3:00 PM</div>
+      </div>
+      <a href="booking.html" class="btn">Book Appointment</a>
+    </div>
+
+    <div class="section">
+      <h3>Patient Reviews</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ - "Dr. Sarah was very caring and explained everything clearly."</p>
+      <p>⭐ ⭐ ⭐ ⭐ - "Excellent doctor, highly recommended."</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 MediCare. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
